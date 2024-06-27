@@ -1,38 +1,36 @@
-@keyframes slideInLeft{
-    from{
-        transform: translateX(-400px);
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
     }
-    to{
+    to {
         transform: translateX(0);
+        opacity: 1;
     }
 }
 
-@keyframes slideInRight1{
-    from{
-        transform: translateX(600px);
+@keyframes slideInRight {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
     }
-    to{
-        transform: translateX(0px);
-    }
-}
-
-@keyframes slideInRight{
-    from{
-        transform: translateX(500px);
-    }
-    to{
-        transform: translateX(0px);
+    to {
+        transform: translateX(0);
+        opacity: 1;
     }
 }
 
-@keyframes slideFromDowm{
-    from{
-        transform: translateY(100px) ;
+@keyframes slideFromDown {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
     }
-    to{
-        transform: translateY(0px);
+    to {
+        transform: translateY(0);
+        opacity: 1;
     }
 }
+
 body{
     display: flex;
     justify-content: center;
@@ -41,15 +39,20 @@ body{
 
 .UdayKumarDiv{
     display: flex; 
-    justify-content: space-evenly; 
+    justify-content: space-around; 
     align-items: center;
     margin-top: 40px;
 }
 
+.hi{
+    width: 500px;
+}
+
 .udayKumar{
+    margin-left: 30px;
     display: flex;
     justify-content: start;
-    align-items: start;
+    align-items: center;
     cursor: default;
     font-family: Arial;
     color:black;
@@ -66,7 +69,6 @@ body{
     height: 40px;
     width: 130px;
     color: rgb(0, 0, 0);
-    margin-right: 3px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
 }
@@ -79,10 +81,9 @@ body{
 }
 
 .imageAndText{
-    margin-left: 20px;
-    margin-top: 130px;
+    margin-top: 120px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center; 
 }
 
@@ -106,7 +107,7 @@ html{
 }
 .listClass{
     display: flex;
-    animation-name: slideInRight1;
+    animation-name: slideInRight;
     animation-duration: 1100ms;
 }
 h1,.hi,.paragh{
@@ -133,10 +134,21 @@ h1,.hi,.paragh{
 .CV,.con{
    transition: all 300ms ease-in;
 }
-.pp{
-    margin-top: 20px;
+.about-section {
     margin-left: 20px;
-    animation-name: slideFromDowm;
-    animation-duration: 1100ms;
-    animation-delay: 0ms;
+    margin-top: 50px;
+    animation: slideFromDown 1s;
+}
+
+.about-section h2  {
+    font-size: 30px;
+    color: #000;
+}
+
+.about-section p  {
+    font-size: 17px;
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
