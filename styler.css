@@ -34,7 +34,7 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: rgba(206, 206, 206, 0.288);
+    background-color: rgb(248, 248, 248);
 }
 
 .UdayKumarDiv{
@@ -49,39 +49,40 @@ body{
 }
 
 .udayKumar{
+    font-family: "Marck Script";
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
     margin-left: 30px;
     display: flex;
     justify-content: start;
     align-items: center;
     cursor: default;
-    font-family: Arial;
     color:black;
 }
 
-.con{
+.con{    
+    font-family: "Merienda", cursive;
+    font-weight: bolder;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style-type : none;
-    font-weight: bold;
-    font-size: 23px;
+    font-size: 21px;
     list-style: none;
     height: 40px;
-    width: 130px;
-    color: rgb(0, 0, 0);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 120px;
+    color: #000000;
     cursor: pointer;
+
 }
-.con:hover{
-    background-color: rgb(214, 214, 214);
-    border-radius: 22px;
-    opacity: 0.7;
-    text-decoration: underline;
+.con:hover{    
     overflow: hidden;
+    box-shadow: 2px 3px 0.2em  #000000  ;
 }
 
 .imageAndText{
-    margin-top: 120px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
@@ -89,22 +90,29 @@ body{
 
 .image{
     margin-top: 10px;
-    box-shadow: rgb(132, 132, 223) 10px 11px 16px ;
+    box-shadow: 9px  10px 0.7em  #9b8c3af6  ;
     border-radius: 60px;
     height: 420px; 
 }
-
+.downloadButtonImage{
+    margin-left: 4px;
+    height : 16px;
+    width : 17px;
+}
 a{
     color: inherit;
     text-decoration: rgb(0, 0, 0);
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 .image{
     animation-name: slideInRight;
     animation-duration: 1100ms;
 }
+
 .listClass{
     display: flex;
     animation-name: slideInRight;
@@ -115,11 +123,14 @@ h1,.hi,.paragh{
     animation-duration: 1100ms;
 }
 .CV{
+    font-family: "Merienda", cursive;
     height: 38px;
-    width: 140px;
+    width: 160px;
+    text-align: center;
     border-width: 2px;
-    border-radius: 20px;
-    border-color: #e02929;
+    border-radius: 8px;
+    border-color: black;
+
 }
 
 .auto-type{
@@ -127,28 +138,32 @@ h1,.hi,.paragh{
 }
 
 .CV:hover{
-    opacity: 0.7;
-    background-color: rgb(214,214,214);
+    box-shadow: 4px 5px 0.2em  #000000  ;
+    background-color: rgba(212, 181, 8, 0.3);   
 }
 
-.CV,.con{
+.CV,.con,button{
    transition: all 300ms ease-in;
 }
 .about-section {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
     margin-left: 20px;
     margin-top: 50px;
     animation: slideFromDown 1s;
 }
 
-.about-section h2  {
-    font-size: 30px;
-    color: #000;
-}
 
-.about-section p  {
-    font-size: 17px;
-    color: black;
+.about-section p {
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.705);
     max-width: 1000px;
-    margin: 0 auto;
-    line-height: 1.6;
+    line-height: 1.5;
+}
+h6{
+    line-height: 0;
+    font-size: 13px;
+    color :rgba(0, 0, 0, 0.705);
 }
