@@ -76,9 +76,15 @@ body{
     cursor: pointer;
 
 }
-.con:hover{    
+.dark_mode:hover,.con:hover{    
     overflow: hidden;
     box-shadow: 2px 3px 0.2em  #000000  ;
+}
+.dark_mode{
+    border-radius: 20px;
+    margin-left: 3px;
+    background-color: white;
+
 }
 
 .imageAndText{
@@ -133,6 +139,7 @@ h1,.hi,.paragh{
 
 }
 
+
 .auto-type{
     transition: all 300ms ease-in;
 }
@@ -167,3 +174,4 @@ h6{
     font-size: 13px;
     color :rgba(0, 0, 0, 0.705);
 }
+
