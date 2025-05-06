@@ -1,0 +1,155 @@
+
+.bdy{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    max-height: auto;
+}
+
+.rec1{
+    background-color: #DAE0F5;
+    min-height: 900px;
+    min-width: 1900px;
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    
+}
+
+.name{
+    display: flex;
+    color: #92A4BE;
+    padding: 30;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-size: 60;
+    justify-content: center;
+    font-weight: normal;
+    letter-spacing: -0.16;
+    max-width: fit-content;
+    margin: 0;
+}
+
+.list{
+    display: flex;
+    max-width: fit-content;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonsB{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    list-style: none;
+    font-family: "Ysabeau infant","Roboto";
+    font-weight: 300;
+    font-size: 36;
+    color: #92A4BE;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.b{
+    display: flex;
+    justify-content: space-around;
+    padding: 50;
+}
+.bA{
+    width: 300px;
+}
+
+.iam{
+    margin-top: 100px;
+    font-family: "Ysabeau infant";
+    color: #92A4BE;
+    font-size: 50;
+    font-weight: 400;
+}
+.cvbutton{
+    border-radius: 8px;
+    font-family: "Ysabeau infant";
+    font-size: 26;
+    height: 55px;
+    width: 185px;
+    color: white;
+    border: none;
+    background-color: #92A4BE;
+}
+
+.image{
+    height: 573px;
+    width: fit-content;
+    border-radius: 12px;
+}
+
+.rec2{
+    display: grid;
+    align-self: auto;
+    background-color: #92A4BE;
+    min-height: 900px;
+    min-width: 1900px;
+    max-height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+.x{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    height: 245px;
+    width: 1867px;
+}
+
+.about{
+    font-family: "Ysabeau Office", sans-serif;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 32;
+    letter-spacing: -0.16;
+}
+
+
+.y{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 400px;
+    height: 52;
+}
+
+.symbols{
+
+}
+
+.z{
+
+}
+.sign{
+    margin-right: 150px;
+    text-align: end;
+    color: white;
+    font-family: "Cedarville Cursive";
+    font-size: 50px;    
+}
+
+a{
+    text-decoration : none;
+    color: inherit;
+}

@@ -1,0 +1,12 @@
+.buttonsB:hover{
+    box-shadow: 2px 3px 0.2em  #92A4BE  ; 
+}
+.cvButton:hover{
+    box-shadow: 4px 5px 0em  #000000  ;
+    background-color: #92A4BE;   
+}
+
+.symbols:hover{
+    height: 60;
+    width: 60;
+}

@@ -1,0 +1,47 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromDown {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.cvButton,.buttonsB{
+    transition: all 200ms ease-in;
+}
+
+.a,.b{
+    animation-name: slideInLeft;
+    animation-duration: 1000ms;
+}
+
+.x,.y{
+    animation-name: slideFromDown;
+    animation-duration: 1000ms;
+}
